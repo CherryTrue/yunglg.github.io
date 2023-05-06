@@ -2,14 +2,15 @@
 <head>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <style type="text/css">
-    html{height:80%}
-    body{height:80%;margin:0px;padding:0px}
+    html{height:100%}
+    body{height:100%;margin:0px;padding:0px}
     #container{height:100%}
   </style>
   <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=uTRuIg9jYtXND9Pw4MoDqfGnZ60ZRcPy">
   </script>
 </head>
 <body>
+
 <div id="container"></div>
 <script type="text/javascript">
   var map = new BMapGL.Map("container");
@@ -31,5 +32,6 @@
 
   var driving = new BMapGL.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});
   driving.search(p1, p2);
+
 </script>
 </body>
