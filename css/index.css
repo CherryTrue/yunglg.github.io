@@ -398,8 +398,8 @@ padding: 12px 14px 11px;
 	transition: all 2s ease-in-out;
 } 
 .box_same li{
-	width: 370px;
-	height: 160px;
+	width: 550px;
+	height: 360px;
 	background: #fff;
 	float: left;
 	margin-top: 25px;
@@ -414,8 +414,8 @@ padding: 12px 14px 11px;
 .box_same li img{
 	float: left;
 	margin-left: 0;
-	width: 120px;
-	height: 120px;
+	width: 200px;
+	height: 200px;
 	margin-right: 20px;
 }
 .box_same .b_ifo{
